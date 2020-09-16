@@ -1,0 +1,29 @@
+{
+  "name": "production-planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "setup": "npm i",
+    "start": "chcp 65001 && npx electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miswanting/ProductionPlanner.git"
+  },
+  "author": "Miswanting",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/miswanting/ProductionPlanner/issues"
+  },
+  "homepage": "https://github.com/miswanting/ProductionPlanner#readme",
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
+  },
+  "dependencies": {
+    "electron-is-dev": "latest",
+    "normalize.css": "latest",
+    "vue": "latest"
+  }
+}
